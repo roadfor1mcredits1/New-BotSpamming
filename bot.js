@@ -1,5 +1,5 @@
-var ServerID = "501706352234856449"; //اي دي السيرفر
-var ChannelID = "501707166189748225";// اي دي الروم
+var ServerID = "502892621048578048"; //اي دي السيرفر
+var ChannelID = "502893066487857172";// اي دي الروم
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
@@ -28,7 +28,7 @@ client.on('message', message => {
 //---------------------------------------------------------------------------------------------
 
 client.on('ready', () => {
-    client.channels.get("501724551231701003").join();
+    client.channels.get("502940526149107723").join();
     }); 
 
 
